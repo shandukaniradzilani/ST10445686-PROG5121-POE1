@@ -14,8 +14,11 @@ public class POE1 {
 private String userN;
 private int passW;
     public static void main(String[] args) {
-        
-        Scanner input = new Scanner(System.in);
+        Login loginSystem = new Login();
+        MessageSystem messageSystem = new MessageSystem();
+        Scanner scanner = new Scanner(System.in);
+        boolean running = true;
+       
         
         System.out.println("Regristration/Login");
         
