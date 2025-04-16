@@ -17,10 +17,15 @@ private int passW;
         Login loginSystem = new Login();
         MessageSystem messageSystem = new MessageSystem();
         Scanner scanner = new Scanner(System.in);
+        
         boolean running = true;
        
         
-        System.out.println("Regristration/Login");
+        System.out.println("Regristration and Login");
+        
+        while (running) {
+            System.out.println("\n1. Register\n2. Login\n3. Exit");
+            System.out.print("Select option: ");
         
         
         
