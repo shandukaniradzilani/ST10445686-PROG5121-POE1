@@ -21,8 +21,8 @@ public class POE1 {
         Scanner scanner = new Scanner(System.in);
         boolean running = true;
         
-        System.out.println("Welcome to QuickChat ");
-        System.out.println("Registration and Login System");
+        JOptionPane.showMessageDialog(null, "Welcome to QuickChat!\nRegistration and Login System", 
+                                    "QuickChat", JOptionPane.INFORMATION_MESSAGE);
         
         while (running) {
             System.out.println("\n MAIN MENU ");
