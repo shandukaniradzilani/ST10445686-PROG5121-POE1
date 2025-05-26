@@ -8,10 +8,7 @@ package poe1;
  *
  * @author radzi
  */
-  /*
- * Enhanced POE1 Messaging System
- * Complete implementation with all required features
- */
+ 
 import java.util.*;
 import java.io.*;
 import java.time.LocalDateTime;
